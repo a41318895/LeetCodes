@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/lang/Cloneable.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2kMitLLOcjbcxfODNzw8NLsi0M0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainsDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindClosestNumberToZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerBuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JewelsAndStones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RansomNote.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Singleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonClone.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonLazyInitializationMultithreaded.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonReflection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonSerialize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SummaryRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Leetcode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MaximumNumberOfBalloons">
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.ContainsDuplicate" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.JewelsAndStones" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumNumberOfBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.MaximumNumberOfBalloons" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.RansomNote" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.ValidAnagram" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Leetcode" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaximumNumberOfBalloons" />
+        <item itemvalue="Application.ValidAnagram" />
+        <item itemvalue="Application.RansomNote" />
+        <item itemvalue="Application.ContainsDuplicate" />
+        <item itemvalue="Application.JewelsAndStones" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="" />
+      <created>1723100059669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723100059669</updated>
+      <workItem from="1723100060822" duration="7801000" />
+      <workItem from="1723167345580" duration="11156000" />
+      <workItem from="1723297402932" duration="9667000" />
+      <workItem from="1723401627868" duration="55000" />
+      <workItem from="1725212384422" duration="6022000" />
+      <workItem from="1725275711971" duration="1544000" />
+      <workItem from="1725359150870" duration="24848000" />
+      <workItem from="1725490662105" duration="22726000" />
+      <workItem from="1725624269869" duration="406000" />
+      <workItem from="1725624686921" duration="656000" />
+      <workItem from="1725634342234" duration="19000" />
+      <workItem from="1725634368411" duration="359000" />
+      <workItem from="1725657316623" duration="13254000" />
+      <workItem from="1725735855228" duration="576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
