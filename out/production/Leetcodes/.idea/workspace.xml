@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="" />
+    <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/StackAndQueue/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/StackAndQueue/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/TwoPointers/SquaresOfASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/TwoPointers/SquaresOfASortedArray.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/lang/Cloneable.java" root0="SKIP_INSPECTION" />
@@ -36,65 +43,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimeToBuyAndSellStock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainsDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindClosestNumberToZero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InnerBuilderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JewelsAndStones.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RansomNote.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Singleton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonClone.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonLazyInitializationMultithreaded.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonReflection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonSerialize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SummaryRanges.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidAnagram.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Leetcode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractFactoryTest.executor": "Run",
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BuilderTest.executor": "Run",
+    "Application.ContainsDuplicate.executor": "Run",
+    "Application.FactoryTest.executor": "Run",
+    "Application.FindClosestNumberToZero.executor": "Run",
+    "Application.InnerBuilderTest.executor": "Run",
+    "Application.IsSubsequence.executor": "Run",
+    "Application.JewelsAndStones.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MaximumNumberOfBalloons.executor": "Run",
+    "Application.RansomNote.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.Singleton.executor": "Run",
+    "Application.SingletonClone.executor": "Run",
+    "Application.SingletonLazyInitializationMultithreaded.executor": "Run",
+    "Application.SingletonReflection.executor": "Run",
+    "Application.SingletonSerialize.executor": "Run",
+    "Application.SummaryRanges.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.ValidAnagram.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/AkiBlogProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumNumberOfBalloons">
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.ContainsDuplicate" />
-      <module name="Leetcodes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.MapAndSet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.JewelsAndStones" />
+  <component name="RunManager" selected="Application.SquaresOfASortedArray">
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.MajorityElement" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +117,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.RansomNote" />
+    <configuration name="SquaresOfASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.TwoPointers.SquaresOfASortedArray" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.MapAndSet.TwoSum" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquaresOfASortedArray" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MaximumNumberOfBalloons" />
         <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.RansomNote" />
-        <item itemvalue="Application.ContainsDuplicate" />
-        <item itemvalue="Application.JewelsAndStones" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +208,8 @@
       <workItem from="1725634342234" duration="19000" />
       <workItem from="1725634368411" duration="359000" />
       <workItem from="1725657316623" duration="13254000" />
-      <workItem from="1725735855228" duration="576000" />
+      <workItem from="1725735855228" duration="5373000" />
+      <workItem from="1725780981318" duration="2955000" />
     </task>
     <servers />
   </component>
