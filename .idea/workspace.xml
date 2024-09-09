@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/MiddleOfTheLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/RemoveDuplicatesFromSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/LinkedListCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/MergeTwoSortedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/RemoveDuplicatesFromSortedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/ReverseLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/StackAndQueue/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/StackAndQueue/BaseballGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/StackAndQueue/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/StackAndQueue/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/StackAndQueue/BaseballGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/StackAndQueue/BaseballGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/StackAndQueue/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/StackAndQueue/ValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +66,15 @@
     "Application.InnerBuilderTest.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.JewelsAndStones.executor": "Run",
+    "Application.LinkedListCycle.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MaximumNumberOfBalloons.executor": "Run",
+    "Application.MergeTwoSortedLists.executor": "Run",
+    "Application.MiddleOfTheLinkedList.executor": "Run",
     "Application.RansomNote.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedList.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.Singleton.executor": "Run",
@@ -98,13 +111,13 @@
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidParentheses">
-    <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.StackAndQueue.BaseballGame" />
+  <component name="RunManager" selected="Application.MiddleOfTheLinkedList">
+    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.LinkedListCycle" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.StackAndQueue.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.TwoPointers.ContainerWithMostWater" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.MergeTwoSortedLists" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.TwoPointers.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.TwoPointers.ReverseString" />
+    <configuration name="MiddleOfTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.MiddleOfTheLinkedList" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.TwoPointers.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.TwoPointers.ValidPalindrome" />
+    <configuration name="RemoveDuplicatesFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.RemoveDuplicatesFromSortedList" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.TwoPointers.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.StackAndQueue.ValidParentheses" />
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.ReverseLinkedList" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.StackAndQueue.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.BaseballGame" />
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.MiddleOfTheLinkedList" />
+        <item itemvalue="Application.LinkedListCycle" />
+        <item itemvalue="Application.MergeTwoSortedLists" />
+        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +230,8 @@
       <workItem from="1725634368411" duration="359000" />
       <workItem from="1725657316623" duration="13254000" />
       <workItem from="1725735855228" duration="5373000" />
-      <workItem from="1725780981318" duration="17712000" />
+      <workItem from="1725780981318" duration="18030000" />
+      <workItem from="1725874884847" duration="13107000" />
     </task>
     <servers />
   </component>
