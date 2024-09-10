@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/RemoveDuplicatesFromSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/BinarySearch/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,66 +42,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BaseballGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimeToBuyAndSellStock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainsDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindClosestNumberToZero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InnerBuilderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JewelsAndStones.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumNumberOfBalloons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RansomNote.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Singleton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonClone.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonLazyInitializationMultithreaded.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonReflection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonSerialize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SquaresOfASortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SummaryRanges.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidAnagram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/AkiBlogProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractFactoryTest.executor": "Run",
+    "Application.BaseballGame.executor": "Run",
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BuilderTest.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.ContainsDuplicate.executor": "Run",
+    "Application.FactoryTest.executor": "Run",
+    "Application.FindClosestNumberToZero.executor": "Run",
+    "Application.InnerBuilderTest.executor": "Run",
+    "Application.IsSubsequence.executor": "Run",
+    "Application.JewelsAndStones.executor": "Run",
+    "Application.LinkedListCycle.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MaximumNumberOfBalloons.executor": "Run",
+    "Application.MergeTwoSortedLists.executor": "Run",
+    "Application.MiddleOfTheLinkedList.executor": "Run",
+    "Application.RansomNote.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedList.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.Singleton.executor": "Run",
+    "Application.SingletonClone.executor": "Run",
+    "Application.SingletonLazyInitializationMultithreaded.executor": "Run",
+    "Application.SingletonReflection.executor": "Run",
+    "Application.SingletonSerialize.executor": "Run",
+    "Application.SquaresOfASortedArray.executor": "Run",
+    "Application.SummaryRanges.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.ValidAnagram.executor": "Run",
+    "Application.ValidPalindrome.executor": "Run",
+    "Application.ValidParentheses.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/Leetcode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedList">
-    <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.StackAndQueue.BaseballGame" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.BinarySearch" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.StackAndQueue.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,21 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.TwoPointers.ContainerWithMostWater" />
-      <module name="Leetcodes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.TwoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicatesFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.RemoveDuplicatesFromSortedList" />
+    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.LinkedListCycle" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -135,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.TwoPointers.ValidPalindrome" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.MergeTwoSortedLists" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.TwoPointers.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +140,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.StackAndQueue.ValidParentheses" />
+    <configuration name="MiddleOfTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.MiddleOfTheLinkedList" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.StackAndQueue.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.ReverseLinkedList" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicatesFromSortedList" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.BaseballGame" />
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.MiddleOfTheLinkedList" />
+        <item itemvalue="Application.LinkedListCycle" />
+        <item itemvalue="Application.MergeTwoSortedLists" />
+        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +220,9 @@
       <workItem from="1725657316623" duration="13254000" />
       <workItem from="1725735855228" duration="5373000" />
       <workItem from="1725780981318" duration="18030000" />
-      <workItem from="1725874884847" duration="965000" />
+      <workItem from="1725874884847" duration="14580000" />
+      <workItem from="1725900637062" duration="31000" />
+      <workItem from="1725954294003" duration="709000" />
     </task>
     <servers />
   </component>

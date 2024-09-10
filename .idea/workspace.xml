@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/MiddleOfTheLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/LinkedList/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/LinkedListCycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/MergeTwoSortedLists.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/RemoveDuplicatesFromSortedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/ReverseLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/BinarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/BinarySearch/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/BinarySearch/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/BinarySearch/ValidPerfectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/SlidingWindow/MaximumAverageSubarrayI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/BinarySearch/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/BinarySearch/FirstBadVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/BinarySearch/SearchInsertPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/BinarySearch/ValidPerfectSquare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/BinarySearch/VersionControl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/MiddleOfTheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/LinkedList/MiddleOfTheLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +58,20 @@
     "Application.AbstractFactoryTest.executor": "Run",
     "Application.BaseballGame.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.BuilderTest.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.ContainsDuplicate.executor": "Run",
     "Application.FactoryTest.executor": "Run",
     "Application.FindClosestNumberToZero.executor": "Run",
+    "Application.FirstBadVersion.executor": "Run",
     "Application.InnerBuilderTest.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.JewelsAndStones.executor": "Run",
     "Application.LinkedListCycle.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.MajorityElement.executor": "Run",
+    "Application.MaximumAverageSubarrayI.executor": "Run",
     "Application.MaximumNumberOfBalloons.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MiddleOfTheLinkedList.executor": "Run",
@@ -77,6 +80,7 @@
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
+    "Application.SearchInsertPosition.executor": "Run",
     "Application.Singleton.executor": "Run",
     "Application.SingletonClone.executor": "Run",
     "Application.SingletonLazyInitializationMultithreaded.executor": "Run",
@@ -90,10 +94,11 @@
     "Application.ValidAnagram.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.ValidParentheses.executor": "Run",
+    "Application.ValidPerfectSquare.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/AkiBlogProject",
+    "last_opened_file_path": "C:/Users/User/Desktop/Leetcode",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,13 +116,13 @@
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiddleOfTheLinkedList">
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.LinkedListCycle" />
+  <component name="RunManager" selected="Application.MaximumAverageSubarrayI">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.BinarySearch" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.MergeTwoSortedLists" />
+    <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.FirstBadVersion" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleOfTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.MiddleOfTheLinkedList" />
+    <configuration name="MaximumAverageSubarrayI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.SlidingWindow.MaximumAverageSubarrayI" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.RemoveDuplicatesFromSortedList" />
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.SearchInsertPosition" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.ReverseLinkedList" />
+    <configuration name="ValidPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.ValidPerfectSquare" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MiddleOfTheLinkedList" />
-        <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="Application.MergeTwoSortedLists" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedList" />
+        <item itemvalue="Application.MaximumAverageSubarrayI" />
+        <item itemvalue="Application.ValidPerfectSquare" />
+        <item itemvalue="Application.FirstBadVersion" />
+        <item itemvalue="Application.SearchInsertPosition" />
+        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +236,9 @@
       <workItem from="1725657316623" duration="13254000" />
       <workItem from="1725735855228" duration="5373000" />
       <workItem from="1725780981318" duration="18030000" />
-      <workItem from="1725874884847" duration="13107000" />
+      <workItem from="1725874884847" duration="14580000" />
+      <workItem from="1725900637062" duration="31000" />
+      <workItem from="1725954294003" duration="13190000" />
     </task>
     <servers />
   </component>
