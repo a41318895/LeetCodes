@@ -3,8 +3,18 @@ package com.aki.leetcodes.Tree;
 // LeetCode : 100
 public class SameTree {
 
-    public static boolean isSameTree(TreeNode p, TreeNode q) {
-        return false ;
+    // Tree node structure and its value should be the same
+    // Time Complexity : O(n)
+    // Space Complexity : O(h)
+    public static boolean isSameTree(TreeNode treeNode1, TreeNode treeNode2) {
+
+        if(treeNode1 == null && treeNode2 == null) return true ;    // Both nodes are null, trees are the same.
+
+        // One node is null or values are different, trees are not the same.
+        if(treeNode1 == null || treeNode2 == null || treeNode1.val != treeNode2.val) return false ;
+
+        // Check both sides' subtree.
+        return isSameTree(treeNode1.left, treeNode2.left) && isSameTree(treeNode1.right, treeNode2.right) ;
     }
 
     public static void main(String[] args) {

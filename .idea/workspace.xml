@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MaximumDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SymmetricTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/BalancedBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/DiameterOfBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/MaximumDepthOfBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/PathSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SameTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SymmetricTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/InvertBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/InvertBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/PathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/PathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SameTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SameTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SymmetricTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SymmetricTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +73,13 @@
     "Application.MaximumNumberOfBalloons.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MiddleOfTheLinkedList.executor": "Run",
+    "Application.PathSum.executor": "Run",
     "Application.RansomNote.executor": "Run",
     "Application.RemoveDuplicatesFromSortedList.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
+    "Application.SameTree.executor": "Run",
     "Application.SearchInsertPosition.executor": "Run",
     "Application.Singleton.executor": "Run",
     "Application.SingletonClone.executor": "Run",
@@ -95,6 +88,7 @@
     "Application.SingletonSerialize.executor": "Run",
     "Application.SquaresOfASortedArray.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
+    "Application.SymmetricTree.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test2.executor": "Run",
     "Application.TwoSum.executor": "Run",
@@ -123,7 +117,7 @@
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
+  <component name="RunManager" selected="Application.PathSum">
     <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.BalancedBinaryTree" />
       <module name="Leetcodes" />
@@ -150,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.InvertBinaryTree" />
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.PathSum" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.MaximumDepthOfBinaryTree" />
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.SameTree" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -176,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.LinkedList.ReverseLinkedList" />
+    <configuration name="SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.SymmetricTree" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSum" />
+        <item itemvalue="Application.SymmetricTree" />
+        <item itemvalue="Application.SameTree" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.BalancedBinaryTree" />
-        <item itemvalue="Application.MaximumDepthOfBinaryTree" />
-        <item itemvalue="Application.InvertBinaryTree" />
-        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +241,7 @@
       <workItem from="1725900637062" duration="31000" />
       <workItem from="1725954294003" duration="13434000" />
       <workItem from="1725975349077" duration="142000" />
-      <workItem from="1725996756182" duration="17710000" />
+      <workItem from="1725996756182" duration="26968000" />
     </task>
     <servers />
   </component>

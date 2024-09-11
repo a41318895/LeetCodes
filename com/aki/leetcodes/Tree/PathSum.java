@@ -4,7 +4,34 @@ package com.aki.leetcodes.Tree;
 public class PathSum {
 
     public static boolean hasPathSum(TreeNode root, int targetSum) {
-        return false ;
+
+        if (root == null) return false;     // There's no node-to-leaf path when root node is null.
+
+        boolean leftChecking = false ;
+        if (root.left != null) {
+            leftChecking = hasPathSum(root.left, targetSum - root.val);
+        }
+        boolean rightChecking = false ;
+        if (root.right != null) {
+            rightChecking = hasPathSum(root.right, targetSum - root.val);
+        }
+
+        return (targetSum - root.val) == 0 || leftChecking || rightChecking ;
+    }
+
+    public static boolean hasPathSimplified(TreeNode root, int targetSum) {
+
+        if (root == null) return false ;
+
+        // To check the leaf node
+        // The condition of pre-version method -> (targetSum - root.val) == 0,
+        // actually is -> root.val == targetSum
+        if (root.left == null && root.right == null) {
+            return root.val == targetSum ;
+        }
+
+        return hasPathSimplified(root.left, targetSum - root.val) ||
+                hasPathSimplified(root.right, targetSum - root.val) ;
     }
 
     public static void main(String[] args) {
@@ -21,6 +48,7 @@ public class PathSum {
 
         int targetSum = 22 ;
         System.out.println(hasPathSum(root, targetSum));
+        System.out.println(hasPathSimplified(root, targetSum));
 
 
         TreeNode root2 = new TreeNode(1) ;
@@ -29,10 +57,12 @@ public class PathSum {
 
         int targetSum2 = 5 ;
         System.out.println(hasPathSum(root2, targetSum2));
+        System.out.println(hasPathSimplified(root2, targetSum2));
 
 
         TreeNode root3 = null ;
         int targetSum3 = 0 ;
         System.out.println(hasPathSum(root3, targetSum3));
+        System.out.println(hasPathSimplified(root3, targetSum3));
     }
 }
