@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/BalancedBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/DiameterOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/PathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SameTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SymmetricTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/InvertBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/InvertBinaryTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +46,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -46,12 +59,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbstractFactoryTest.executor": "Run",
+    "Application.BalancedBinaryTree.executor": "Run",
     "Application.BaseballGame.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BuilderTest.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.ContainsDuplicate.executor": "Run",
+    "Application.DiameterOfBinaryTree.executor": "Run",
     "Application.FactoryTest.executor": "Run",
     "Application.FindClosestNumberToZero.executor": "Run",
     "Application.FirstBadVersion.executor": "Run",
@@ -63,6 +78,7 @@
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MaximumAverageSubarrayI.executor": "Run",
+    "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MaximumNumberOfBalloons.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MiddleOfTheLinkedList.executor": "Run",
@@ -107,13 +123,26 @@
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvertBinaryTree">
-    <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.FirstBadVersion" />
+  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
+    <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.BalancedBinaryTree" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.DiameterOfBinaryTree" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumAverageSubarrayI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.SlidingWindow.MaximumAverageSubarrayI" />
+    <configuration name="MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.MaximumDepthOfBinaryTree" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.SlidingWindow.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +182,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.aki.leetcodes.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.ValidPerfectSquare" />
-      <module name="Leetcodes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiameterOfBinaryTree" />
+        <item itemvalue="Application.BalancedBinaryTree" />
+        <item itemvalue="Application.MaximumDepthOfBinaryTree" />
         <item itemvalue="Application.InvertBinaryTree" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.MaximumAverageSubarrayI" />
-        <item itemvalue="Application.ValidPerfectSquare" />
-        <item itemvalue="Application.FirstBadVersion" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +247,7 @@
       <workItem from="1725900637062" duration="31000" />
       <workItem from="1725954294003" duration="13434000" />
       <workItem from="1725975349077" duration="142000" />
-      <workItem from="1725996756182" duration="5287000" />
+      <workItem from="1725996756182" duration="17710000" />
     </task>
     <servers />
   </component>
