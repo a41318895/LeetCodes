@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SameTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/PathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/PathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SameTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SameTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SymmetricTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcodes/com/aki/leetcodes/Tree/SymmetricTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +68,7 @@
     "Application.MaximumNumberOfBalloons.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MiddleOfTheLinkedList.executor": "Run",
+    "Application.MinimumAbsoluteDifferenceInBST.executor": "Run",
     "Application.PathSum.executor": "Run",
     "Application.RansomNote.executor": "Run",
     "Application.RemoveDuplicatesFromSortedList.executor": "Run",
@@ -117,9 +113,9 @@
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PathSum">
-    <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.BalancedBinaryTree" />
+  <component name="RunManager" selected="Application.MinimumAbsoluteDifferenceInBST">
+    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.DiameterOfBinaryTree" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.DiameterOfBinaryTree" />
+    <configuration name="MinimumAbsoluteDifferenceInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.MinimumAbsoluteDifferenceInBST" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -198,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumAbsoluteDifferenceInBST" />
         <item itemvalue="Application.PathSum" />
         <item itemvalue="Application.SymmetricTree" />
         <item itemvalue="Application.SameTree" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
-        <item itemvalue="Application.BalancedBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +237,8 @@
       <workItem from="1725900637062" duration="31000" />
       <workItem from="1725954294003" duration="13434000" />
       <workItem from="1725975349077" duration="142000" />
-      <workItem from="1725996756182" duration="26968000" />
+      <workItem from="1725996756182" duration="28111000" />
+      <workItem from="1726082968004" duration="2982000" />
     </task>
     <servers />
   </component>

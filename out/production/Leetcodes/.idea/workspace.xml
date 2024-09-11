@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/aki/leetcodes/Tree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -46,30 +45,36 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.AbstractFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BalancedBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.BaseballGame.executor&quot;: &quot;Run&quot;,
     &quot;Application.BestTimeToBuyAndSellStock.executor&quot;: &quot;Run&quot;,
     &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
     &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContainsDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiameterOfBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindClosestNumberToZero.executor&quot;: &quot;Run&quot;,
     &quot;Application.FirstBadVersion.executor&quot;: &quot;Run&quot;,
     &quot;Application.InnerBuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvertBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
     &quot;Application.JewelsAndStones.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedListCycle.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
     &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaximumAverageSubarrayI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumDepthOfBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaximumNumberOfBalloons.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
     &quot;Application.MiddleOfTheLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.RansomNote.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveDuplicatesFromSortedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
     &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SameTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.SearchInsertPosition.executor&quot;: &quot;Run&quot;,
     &quot;Application.Singleton.executor&quot;: &quot;Run&quot;,
     &quot;Application.SingletonClone.executor&quot;: &quot;Run&quot;,
@@ -78,6 +83,7 @@
     &quot;Application.SingletonSerialize.executor&quot;: &quot;Run&quot;,
     &quot;Application.SquaresOfASortedArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.SummaryRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SymmetricTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
     &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
@@ -106,22 +112,9 @@
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvertBinaryTree">
-    <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.FirstBadVersion" />
-      <module name="Leetcodes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvertBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.InvertBinaryTree" />
+  <component name="RunManager" selected="Application.MinimumAbsoluteDifferenceInBST">
+    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.DiameterOfBinaryTree" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
@@ -133,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumAverageSubarrayI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.SlidingWindow.MaximumAverageSubarrayI" />
+    <configuration name="MinimumAbsoluteDifferenceInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.MinimumAbsoluteDifferenceInBST" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.SlidingWindow.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.SearchInsertPosition" />
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.PathSum" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +152,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.BinarySearch.ValidPerfectSquare" />
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.SameTree" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.BinarySearch.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.SymmetricTree" />
+      <module name="Leetcodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InvertBinaryTree" />
-        <item itemvalue="Application.MaximumAverageSubarrayI" />
-        <item itemvalue="Application.ValidPerfectSquare" />
-        <item itemvalue="Application.FirstBadVersion" />
-        <item itemvalue="Application.SearchInsertPosition" />
+        <item itemvalue="Application.MinimumAbsoluteDifferenceInBST" />
+        <item itemvalue="Application.PathSum" />
+        <item itemvalue="Application.SymmetricTree" />
+        <item itemvalue="Application.SameTree" />
+        <item itemvalue="Application.DiameterOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +236,8 @@
       <workItem from="1725900637062" duration="31000" />
       <workItem from="1725954294003" duration="13434000" />
       <workItem from="1725975349077" duration="142000" />
-      <workItem from="1725996756182" duration="927000" />
+      <workItem from="1725996756182" duration="28111000" />
+      <workItem from="1726082968004" duration="1039000" />
     </task>
     <servers />
   </component>
