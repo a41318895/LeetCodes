@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb489970-c977-46ff-af5a-d805a41b4287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/DynamicProgramming/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/DynamicProgramming/FibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/DynamicProgramming/MinCostClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Graph/FindIfPathExistsInGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/Heap/LastStoneWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/aki/leetcodes/ArrayAndString/CountPrimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +50,20 @@
     &quot;Application.BestTimeToBuyAndSellStock.executor&quot;: &quot;Run&quot;,
     &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
     &quot;Application.BuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClimbingStairs.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContainsDuplicate.executor&quot;: &quot;Run&quot;,
     &quot;Application.DiameterOfBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.FactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindClosestNumberToZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindIfPathExistsInGraph.executor&quot;: &quot;Run&quot;,
     &quot;Application.FirstBadVersion.executor&quot;: &quot;Run&quot;,
     &quot;Application.InnerBuilderTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.InvertBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
     &quot;Application.JewelsAndStones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LastStoneWeight.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedListCycle.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
     &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
@@ -72,6 +72,7 @@
     &quot;Application.MaximumNumberOfBalloons.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
     &quot;Application.MiddleOfTheLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinCostClimbingStairs.executor&quot;: &quot;Run&quot;,
     &quot;Application.MinimumAbsoluteDifferenceInBST.executor&quot;: &quot;Run&quot;,
     &quot;Application.PathSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.RansomNote.executor&quot;: &quot;Run&quot;,
@@ -117,13 +118,13 @@
       <recent name="com.aki.designPattern.creation.factory.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LastStoneWeight">
-    <configuration name="LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Heap.LastStoneWeight" />
+  <component name="RunManager" selected="Application.CountPrimes">
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.DynamicProgramming.ClimbingStairs" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.Heap.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumAbsoluteDifferenceInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.MinimumAbsoluteDifferenceInBST" />
+    <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.ArrayAndString.CountPrimes" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.ArrayAndString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.PathSum" />
+    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.DynamicProgramming.FibonacciNumber" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.SameTree" />
+    <configuration name="FindIfPathExistsInGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Graph.FindIfPathExistsInGraph" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.Tree.SymmetricTree" />
+    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aki.leetcodes.DynamicProgramming.MinCostClimbingStairs" />
       <module name="Leetcodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aki.leetcodes.Tree.*" />
+          <option name="PATTERN" value="com.aki.leetcodes.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LastStoneWeight" />
-        <item itemvalue="Application.MinimumAbsoluteDifferenceInBST" />
-        <item itemvalue="Application.PathSum" />
-        <item itemvalue="Application.SymmetricTree" />
-        <item itemvalue="Application.SameTree" />
+        <item itemvalue="Application.CountPrimes" />
+        <item itemvalue="Application.MinCostClimbingStairs" />
+        <item itemvalue="Application.ClimbingStairs" />
+        <item itemvalue="Application.FibonacciNumber" />
+        <item itemvalue="Application.FindIfPathExistsInGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,8 @@
       <workItem from="1725996756182" duration="28111000" />
       <workItem from="1726082968004" duration="5013000" />
       <workItem from="1726143258352" duration="671000" />
-      <workItem from="1726235471487" duration="858000" />
+      <workItem from="1726235471487" duration="9342000" />
+      <workItem from="1729104327436" duration="711000" />
     </task>
     <servers />
   </component>
